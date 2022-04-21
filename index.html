@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payoneer-bank</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="primary">
+    <h1 class="text-center">welcome to pioneer bank</h1>
+         <div class="login_area">
+             <h4>Login</h4>
+             <input type="text" class="form-control" placeholder="Email">
+             <br>
+             <input type="password" name="" class="form-control" placeholder=" Password">
+             <br>
+             <button id="magic"class="btn btn-success">Enter</button>
+         </div>
+    </div>
+    <div id="overPage">
+          <!-- <p>yes you can find the main section</p> -->
+          <div class="row">
+              <div class="col-md-4">
+                  <div class="Deposit status">
+                    <h2>Deposit</h2>
+                    <h5>$ <span id="currentDeposit">00</span></h5>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="withdraw status">
+                    <h2>Withdraw</h2>
+                    <h5>$ <span id="spanWithdraw">00</span></h5>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                 <div class="balance status">
+                    <h2>Balance</h2>
+                    <h5>$ <span id="banlaceSpn">00</span></h5>
+                 </div> 
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+               <div class="login_area">
+                <h4>Deposit</h4>
+                <input id="inpAmount" type="text" class="form-control" placeholder="$ amount you want to Deposit">
+                <br>
+                <button id="amountBtn" class="btn btn-success">Deposit</button>
+               </div>
+                </div>
+              <div class="col-md-6">
+                 <div class="login_area">
+                    <h4>Withdraw</h4>
+                    <input id="withdrawInp"type="text" class="form-control" placeholder="$amount you want to withdraw">
+                    <br>
+                    <button id="withDrawBtn" class="btn btn-success">Withdraw</button>
+                 </div>
+                </div>
+          </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
